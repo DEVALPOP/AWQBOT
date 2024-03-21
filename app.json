@@ -8,7 +8,7 @@
 		"python",
 		"telethon"
 	],
-	"repository": "https://github.com/Source-Ze/Temp-Mail",
+	"repository": "https://github.com/DEVALPOP/AWQBOT",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
