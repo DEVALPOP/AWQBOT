@@ -17,9 +17,7 @@ if wr is None:
     if os.path.exists('info.json'):
         fileSize = os.path.getsize("info.json")
         if fileSize == 0:
-            
-            tokenBot = '6214363158:AAGy2L2uOfitn4k7VW5VJkn1gYIDCgEaVc8' 
-            
+            tokenBot = '6214363158:AAGy2L2uOfitn4k7VW5VJkn1gYIDCgEaVc8'
             idSudo = 6250435647
 
             aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
@@ -28,9 +26,7 @@ if wr is None:
             jsonFile.write(jsonString)
             jsonFile.close()
     else:
-        
         tokenBot = '6185311761:AAF1960-FhRxYpmU_qYvADz_AlQy5zI93hU'
-        
         idSudo = 6250435647
 
         aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
@@ -43,11 +39,9 @@ if wr is None:
 
 # Bot token from Bot Father
 
-# TOKEN = "5664558596:6185311761:AAF1960-FhRxYpmU_qYvADz_AlQy5zI93hU"
 f = open('info.json', )
 data = json.load(f)
 TOKEN = data['Token']
-
 
 # Your API ID and Hash from https://my.telegram.org/apps
 API_ID = 8039541
@@ -75,7 +69,7 @@ def dev():
             t = row[0]
             developer.append(t)
     if lang2 is None:
-        print("No Second Devoloper")
+        print("No Second Developer")
     else:
         for row in lang2:
             t = row[0]
